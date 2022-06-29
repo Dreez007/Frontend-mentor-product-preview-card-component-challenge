@@ -38,4 +38,39 @@ p{
     font-size: 14px;
     font-family: 'Monserrat', sans-serif;
     color: hsl(228, 12%, 48%);
+    line-height: 150%;
+    margin-top: 25px;
+}
+button{
+    background-color: hsl(158, 36%, 37%);
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    padding: 0.8em;
+    margin-top: 30px;
+}
+button:hover{
+    cursor: pointer;
+    background-color: hsl(159, 58%, 15%);
+}
+button p{
+    color: white;
+    display: inline;
+}
+button img{
+    display: inline;
+}
+h1{
+    font-size: 25px;
+}
+.price-div{
+    margin-top: 20px;
+}
+.big-price{
+    display: inline;
+    color: hsl(158, 36%, 37%);
+}
+.small-price{
+    display: inline;
+    text-decoration: line-through;
 }
