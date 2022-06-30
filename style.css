@@ -17,9 +17,10 @@ main{
 }
 .left-div{
     width: 50%;
-    background-image: url(image-product-desktop.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+}
+.left-div img{
+    height: 100%;
+    width: 100%;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
 }
@@ -81,9 +82,10 @@ h1{
         flex-direction: column;
     }
     .left-div{
-        background-image: url(image-product-mobile.jpg);
         height: 40%;
         width: 100%;
+    }
+    .left-div img{
         border-bottom-left-radius: 0;
         border-top-right-radius: 10px;
     }
